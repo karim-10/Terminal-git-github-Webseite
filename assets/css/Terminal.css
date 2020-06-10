@@ -140,7 +140,7 @@ section:nth-of-type(2) article:nth-of-type(5)>p{
 
 
 section:nth-of-type(3) {
-    height: 250vh;
+    height: 450vh;
     /*background-color:*/
     
     
@@ -204,6 +204,8 @@ section:nth-of-type(3) article:nth-of-type(1) img:nth-of-type(2){
     margin-left: 55%;
     border-left: 7px solid rgb(247, 0, 0);
     border-radius: 6px;
+    padding-bottom: 40px;
+    
 }
 
 
@@ -221,14 +223,68 @@ section:nth-of-type(3) article:nth-of-type(2) h1{
 section:nth-of-type(3) article:nth-of-type(2) img:nth-of-type(1){
     margin-left: 10%;
     border-left: 7px solid rgb(247, 0, 0);
+    border-right: 7px solid rgb(247, 0, 0);
     border-radius: 6px;
     padding-left: 1px;
+    padding-right: 1px;
     margin-top: 40px;
 }
 section:nth-of-type(3) article:nth-of-type(2) img:nth-of-type(2){
     /*border-left: 7px solid rgb(247, 0, 0);
     border-radius: 6px;
     padding-left: 1px;*/
+    margin-top: 40px;
+    margin-left: 30%;
+    box-shadow: 5px 5px 50px  red;
+}
+section:nth-of-type(3) article:nth-of-type(3) h1{
+    font-size: 40px;
+    border-left: 7px solid rgb(247, 0, 0);
+    border-radius: 6px;
+    margin-top: 70px;
+    font-weight: bold;
+    padding-left: 4px;
+    margin-left: 60px;
+    margin-right: 75%;
+    
+}
+section:nth-of-type(3) article:nth-of-type(3) img:nth-of-type(1){
+    margin-left: 10%;
+    border-left: 7px solid rgb(247, 0, 0);
+    border-right: 7px solid rgb(247, 0, 0);
+    border-radius: 6px;
+    padding-left: 1px;
+    margin-top: 40px;
+}
+
+section:nth-of-type(3) article:nth-of-type(3) img:nth-of-type(2){
+    margin-top: 40px;
+    margin-left: 30%;
+    box-shadow: 5px 5px 50px  red;
+}
+
+section:nth-of-type(3) article:nth-of-type(4) h1 {
+    font-size: 40px;
+    border-left: 7px solid rgb(247, 0, 0);
+    
+    border-radius: 6px;
+    margin-top: 70px;
+    font-weight: bold;
+    padding-left: 4px;
+    margin-left: 60px;
+    margin-right: 75%;
+}
+
+section:nth-of-type(3) article:nth-of-type(4) img:nth-of-type(1){
+    margin-left: 10%;
+    border-left: 7px solid rgb(247, 0, 0);
+    border-right: 7px solid rgb(247, 0, 0);
+    border-radius: 6px;
+    padding-left: 1px;
+    margin-top: 40px;
+}
+
+section:nth-of-type(3) article:nth-of-type(4) img:nth-of-type(2){
     margin-top: 40px;
     margin-left: 30%;
     box-shadow: 5px 5px 50px  red;
